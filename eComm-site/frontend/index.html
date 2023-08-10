@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <title>DashBoard - eCommSite</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>Brand<span class="danger">Logo</span></h2>
+                </div>
+                <div class="close">
+                    <button id="close-btn">
+                        <span class="material-icons-sharp">
+                            close
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="">
+                    <span class="material-symbols-sharp">
+                        Dashboard
+                    </span>
+                    <h3>Dashboard </h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Customers</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Orders</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        report
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section-->
+
+        <!-- Main Content-->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analysis -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>£2351</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="48"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Site Visits</h3>
+                            <h1>15,321</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="48"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>8,497</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="48"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analysis -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>New Users</h2>
+                <div class="users-list">
+                    <div class="users">
+                        <img src="images/profile.jpeg">
+                        <h2>James D.</h2>
+                        <p>34 Min Ago</p>
+                    </div>
+                    <div class="users">
+                        <img src="images/profile.jpeg">
+                        <h2>Mohammed A.</h2>
+                        <p>5 Hours Ago</p>
+                    </div>
+                    <div class="users">
+                        <img src="images/profile.jpeg">
+                        <h2>Charlotte H.</h2>
+                        <p>13 Hours Ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Prod. Name</th>
+                            <th>Order No.</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- End of Recent Orders -->
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id='menu-btn'>
+                    <span class='material-icons-sharp'>
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span> 
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Nathan</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="order.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
